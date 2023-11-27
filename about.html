@@ -11,16 +11,181 @@
 <link rel="stylesheet" href="flex.css">
 
 <body>
-    <h2> This website is all about of famous food and place in India.</h2><br><br>
-    <h2> This website is created by Shubham Pandey.</h2>
-<img src="" alt="">
+  <nav class="navbar navbar-dark bg-primary navbar-expand-md  fixed-top" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-primary" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Info</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item mx-5">
+              <a class="nav-link active" aria-current="page" href="firstpage.html">Home</a>
+            </li>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
+            <li class="nav-item dropdown mx-5">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                State
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="secondpage.html">North-state</a></li>
+                <li><a class="dropdown-item" href="secondpage2.html">South-state</a></li>
+                <li><a class="dropdown-item" href="secondpage3.html">East-state</a></li>
+                <li><a class="dropdown-item" href="secondpage4.html">West-state</a></li>
+
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="secondpage5.html">Other state</a></li>
+              </ul>
+
+            <li class="nav-item mx-5">
+              <a class="nav-link" href="thirdpage.html">Log-in</a>
+            </li>
+            <li class="nav-item dropdown mx-5">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                More
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#">Contact</a>
+                  <for< /li>
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          
+<div class="about"> 
+    <h3>This website is all about the famous food and places </h3>
+    <h3> It is created by Shubham Pandey</h3>
+</div>
+    <div class=" elementor-image text-center">
+      <img decoding="async" width="600" height="43" src="https://gohyer.com/wp-content/uploads/2020/08/line.png"
+        class="attachment-full size-full wp-image-29645 img-fluid" alt="On-Demand Labor, Home, Hyer" loading="lazy"
+        srcset="https://gohyer.com/wp-content/uploads/2020/08/line.png 600w, https://gohyer.com/wp-content/uploads/2020/08/line-300x22.png 300w"
+        sizes="(max-width: 600px) 100vw, 600px">
+    </div>
+    <div class="social-links text-center ">
+      <a href=""> <img src="instagram.png" class="icons" alt="instagram"> </a>
+      <a href=""> <img src="youtube.png" class="icons" alt="youtube"> </a>
+      <a href=""> <img src="linkedin.png" class="icons" alt="Linkedin"> </a>
+      <a href=""> <img src="twitter.png" class="icons" alt="instagram"> </a>
+      <a href=""> <img src="facebook.png" class="icons" alt="Facebook"> </a>
+
+    </div>
+
+  </div>
+
+  <form action="" class="mt-5 mx-3 my-3 mb-3 text-center">
+    <h3>How can we help you?</h3>
+    <div>
+      <div class="row">
+        <div class="col-md-6">
+          <label class="mt-5 mx-3 my-3 mb-3 " for="email">Email : </label>
+          <input type="email" id="email" placeholder="Email">
+        </div>
+        <div class="col-md-6">
+          <label class="mt-5 mx-3 my-3 mb-3 col-md-6" for="phone-number">Phone-Number : </label>
+          <input type="phone-number" id="phone-number" placeholder="Phone number">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6"><label class="mt-5 mx-3 my-3 mb-3" for="message">Message : </label><br>
+          <span class="wpcf7-form-control-wrap"><textarea cols="40" rows="10"
+              class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true"
+              aria-invalid="false" placeholder="How can we help?" name="how-help"></textarea></span>
+        </div>
+        <div class="col-md-6"> <label class="mt-5 mx-3 my-3 mb-3" for="company-name">Company : </label>
+          <input type="phone-number" id="company-name" placeholder="company-name">
+        </div>
+      </div>
+      <a href="" type="button" class="btn btn-primary text-center"> Contact us</a>
+  </form>
+  </div>
+
+  <div class="links  ">
+    <div class="row">
+      <div class="col-md-6">
+        <a href=""><img src="google-play-badge.png" class="google-play-badge" alt="google play store"></a>
+        <a href=""><img src="app-store.jpg" alt="app-store" class="app-store"></a>
+        <ul>
+          <ul class="footer-details">
+            <h1>Food</h1>
+            <li><a class="footer-details" href="https://www.swiggy.com/">Swiggy for order famous food</a></li>
+            <li><a class="footer-details" href="https://www.zomato.com/">Zomato for order famous food</a></li>
+            <li><a class="footer-details" href="https://www.dribbble.com">Dribble for order famous food</a></li>
+            <li><a class="footer-details" href="https://www.gloriafood.com">gloriafood for order famous food</a></li>
+          </ul>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <div class="footer-meta">
+          <div class="footer-details">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-building"
+              viewBox="0 0 16 16">
+              <path
+                d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z" />
+              <path
+                d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V1Zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3V1Z" />
+            </svg> <span>Mayur Vihar Phase -3<br> Delhi-110096</span>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+            class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+            <path
+              d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z" />
+            <path
+              d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z" />
+          </svg> <span><a class="footer-details" href="">shibbupandey875@gmail.com</a></span>
+        </div>
+        <div class="footer-details">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+            class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+          </svg> <span><a class="footer-details" href="tel:123859330">123859330</a></span>
+        </div>
+        <div class="footer-details">
+
+        </div>
+
+        <div class="social-links ">
+          <a href=""> <img src="instagram.png" class="icons" alt="instagram"> </a>
+          <a href=""> <img src="youtube.png" class="icons" alt="youtube"> </a>
+          <a href=""> <img src="linkedin.png" class="icons" alt="Linkedin"> </a>
+          <a href=""> <img src="twitter.png" class="icons" alt="instagram"> </a>
+          <a href=""> <img src="facebook.png" class="icons" alt="Facebook"> </a>
+
+        </div>
+        <ul class="footer-details">
+          <li><a class="footer-details" href="https://www.food.com/">Recipe for food</a></li>
+          <li><a class="footer-details" href="https://www.inredible.com/">For visit the place.</a></li>
+          <li><a class="footer-details" href="https://www.traveltraingle.com/">Known about historical place of india</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
 </body>
 
 </html>
